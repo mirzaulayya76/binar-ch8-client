@@ -1,0 +1,324 @@
+.react {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  row-gap: 1em;
+}
+
+.create-page {
+  position: relative;
+  width: 400px;
+  height: 800px;
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #ecf0f3;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+  display: inline-block;
+}
+
+
+.create-heading {
+  margin-top: 10px;
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: #1DA1F2;
+  letter-spacing: 2px;
+}
+
+.create-form {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.input-create {
+  background: #ecf0f3;
+  padding: 10px;
+  padding-left: 20px;
+  height: 50px;
+  font-size: 14px;
+  border-radius: 50px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  caret-color: grey;
+}
+
+.input-create::placeholder {
+  text-align: center;
+  color: gray;
+}
+
+.create-button {
+  color: white;
+  margin-top: 20px;
+  background: #1DA1F2;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 900;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  transition: 0.5s;
+}
+
+.create-button:hover {
+  box-shadow: none;
+}
+
+.input-create, .create-button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.edit-page {
+  position: relative;
+  width: 400px;
+  height: 800px;
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #ecf0f3;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+  display: inline-block;
+}
+
+.edit-heading {
+  margin-top: 10px;
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: #1DA1F2;
+  letter-spacing: 2px;
+}
+
+.edit-form {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.input-edit {
+  background: #ecf0f3;
+  padding: 10px;
+  padding-left: 20px;
+  height: 50px;
+  font-size: 14px;
+  border-radius: 50px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  caret-color: grey;
+}
+
+.input-edit::placeholder {
+  text-align: center;
+  color: gray;
+}
+
+.edit-button {
+  color: white;
+  margin-top: 20px;
+  background: #1DA1F2;
+  height: 40px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 900;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  transition: 0.5s;
+}
+
+.edit-button:hover {
+  box-shadow: none;
+}
+
+.input-edit, .edit-button {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.search-page {
+  position: relative;
+  width: 400px;
+  height: 800px;
+  border-radius: 20px;
+  padding: 40px;
+  box-sizing: border-box;
+  background: #ecf0f3;
+  box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+  display: inline-block;
+}
+
+h2{
+  margin-top: 10px;
+  font-weight: 900;
+  font-size: 1.5rem;
+  color: #1DA1F2;
+  letter-spacing: 2px;
+}
+
+.username-form {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.input-username {
+  background: #ecf0f3;
+  padding: 10px;
+  padding-left: 20px;
+  height: 50px;
+  font-size: 14px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  caret-color: grey;
+}
+.input-username::placeholder { 
+  text-align: center;
+  color: gray
+}
+
+.username-button {
+  color: white;
+  margin-top: 20px;
+  background: #1DA1F2;
+  height: 40px;
+  margin-left: 15px;
+  cursor: pointer;
+  font-weight: 900;
+  border-radius: 50%;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  transition: 0.5s;
+}
+.username-button:hover {
+  box-shadow: none;
+}
+.input-username, .username-button {
+  display: relative;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+.email-form {
+  text-align: center;
+  margin-top: 30px;
+}
+.input-email {
+  background: #ecf0f3;
+  padding: 10px;
+  padding-left: 20px;
+  height: 50px;
+  font-size: 14px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  caret-color: grey;
+}
+.input-email::placeholder {
+  text-align: center;
+  color: gray;
+}
+.email-button {
+  color: white;
+  margin-top: 20px;
+  background: #1DA1F2;
+  height: 40px;
+  margin-left: 15px;
+  cursor: pointer;
+  font-weight: 900;
+  border-radius: 50%;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  transition: 0.5s;
+}
+.email-button:hover {
+  box-shadow: none;
+}
+.input-email, .email-button {
+  display: relative;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+.experience-form {
+  text-align: center;
+  margin-top: 30px;
+}
+.input-experience {
+  background: #ecf0f3;
+  padding: 10px;
+  padding-left: 20px;
+  height: 50px;
+  font-size: 14px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  caret-color: grey;
+}
+.input-experience::placeholder {
+  text-align: center;
+  color: gray;
+}
+.experience-button {
+  color: white;
+  margin-top: 20px;
+  background: #1DA1F2;
+  height: 40px;
+  margin-left: 15px;
+  cursor: pointer;
+  font-weight: 900;
+  border-radius: 50%;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  transition: 0.5s;
+}
+
+.experience-button:hover {
+  box-shadow: none;
+}
+
+.input-experience, .experience-button {
+  display: relative;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.level-form {
+  text-align: center;
+  margin-top: 30px;
+}
+.input-level {
+  background: #ecf0f3;
+  padding: 10px;
+  padding-left: 20px;
+  height: 50px;
+  font-size: 14px;
+  box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+  caret-color: grey;
+}
+.input-level::placeholder {
+  text-align: center;
+  color: gray;
+}
+.level-button {
+  color: white;
+  margin-top: 20px;
+  background: #1DA1F2;
+  height: 40px;
+  margin-left: 15px;
+  cursor: pointer;
+  font-weight: 900;
+  border-radius: 50%;
+  box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+  transition: 0.5s;
+}
+.level-button:hover {
+  box-shadow: none;
+}
+.input-level, .level-button {
+  display: relative;
+  padding: 0;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+}
+p {
+  font-family:'Courier New', Courier, monospace
+}
